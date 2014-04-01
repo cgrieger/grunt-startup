@@ -1,7 +1,7 @@
 node-startup
 ============
 
-Startup script for Linux-based systems for running node app when rebooting from /etc/init.d script.
+Startup script for Linux-based systems for running 'grunt server' or any other command  when rebooting from /etc/init.d script.
 
 Why node-startup?
 ----
@@ -24,7 +24,7 @@ Edit the node-app script with your settings for node path, node environment (ie:
 
 	NODE_EXEC=/usr/local/bin/node
 	NODE_ENV="production"
-	NODE_APP="app.js"
+	CMD="grunt server"
 	APP_DIR='/var/www/example.com';
 	PID_FILE=$APP_DIR/pid/app.pid
 	LOG_FILE=$APP_DIR/log/app.log
