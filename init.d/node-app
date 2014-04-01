@@ -1,7 +1,7 @@
 #!/bin/sh
 
 CMD='grunt server'
-APP_DIR='/home/chris/node/deuba-dis/store';
+APP_DIR='/path/to/app';
 PID_FILE=$APP_DIR/app.pid
 LOG_FILE=$APP_DIR/app.log
 
